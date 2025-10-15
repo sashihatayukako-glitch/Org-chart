@@ -1,19 +1,21 @@
-# Org-chart
-# 🌏 Global Business Division - 組織図
-
-```mermaid
 flowchart TB
-    A[事業本部<br/>Global Business Division<br/>Division Manager：ExecutiveName]
+    %% 事業本部
+    A[事業本部\nGlobal Business Division\nDivision Manager：ExecutiveName]
 
-    A --> B1[EU Region HQ<br/>EUリージョン本部<br/>Manager：梅津 幸司（兼任）]
-    A --> B2[EU Region HQ<br/>EUリージョン本部<br/>Manager：信濃 孝喜（兼任）]
-    A --> B3[EU Region HQ<br/>EUリージョン本部<br/>Sub-Manager：八木 翔平（HQ兼任）]
+    %% HQ MGT
+    A --> B1[EU Region HQ\nEUリージョン本部\nManager：梅津 幸司（兼任）]
+    A --> B2[EU Region HQ\nEUリージョン本部\nManager：信濃 孝喜（兼任）]
+    A --> B3[EU Region HQ\nEUリージョン本部\nSub-Manager：八木 翔平（HQ兼任）]
 
-    A --> C1[Global Store Mgmt (GX)<br/>Chief：曽根原 洋介（GCS兼任）]
-    A --> C2[Global Customer Service (GCS)<br/>Chief：曽根原 洋介（主担当）]
-    A --> C3[Global Biz Sales (GBS)<br/>Chief：花岡 龍（主担当）]
+    %% L1 グループ
+    A --> C1[Global Store Mgmt (GX)\nChief：曽根原 洋介（GCS兼任）]
+    A --> C2[Global Customer Service (GCS)\nChief：曽根原 洋介（主担当）]
+    A --> C3[Global Biz Sales (GBS)\nChief：花岡 龍（主担当）]
 
-    C2 --> D1[GCS サブグループ<br/>Sub-Chief：指籏 由香子]
+    %% L2 GCS サブグループ
+    C2 --> D1[GCS サブグループ\nSub-Chief：指籏 由香子]
+
+    %% GCS Crew
     D1 --> E1[鄭 博予]
     D1 --> E2[山口 智]
     D1 --> E3[宮澤 侑里]
@@ -30,9 +32,10 @@ flowchart TB
     D1 --> E14[山本ゲープ 容子]
     D1 --> E15[石川 佳菜]
 
-    C3 --> D2[GBS サブグループ<br/>Sub-Chief：吉田 大地]
+    %% L2 GBS サブグループ
+    C3 --> D2[GBS サブグループ\nSub-Chief：吉田 大地]
 
-    A --> F1[GCS (HK)<br/>Chief：區家挺 AK（Webike HK）]
-    A --> F2[GCS (VN)<br/>Staff Member：Trần Phước An（Webike Vietnam）]
-    A --> F3[GCS (VN)<br/>Staff Member：Tôn Thất Bảo Tâm（Webike Vietnam）]
-
+    %% 国際拠点
+    A --> F1[GCS (HK)\nChief：區家挺 AK（Webike HK）]
+    A --> F2[GCS (VN)\nStaff Member：Trần Phước An（Webike Vietnam）]
+    A --> F3[GCS (VN)\nStaff Member：Tôn Thất Bảo Tâm（Webike Vietnam）]
