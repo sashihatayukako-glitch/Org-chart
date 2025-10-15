@@ -1,41 +1,42 @@
+```mermaid
 flowchart TB
-    %% 事業本部
-    A[事業本部\nGlobal Business Division\nDivision Manager：ExecutiveName]
+    %% Headquarters
+    A[Headquarters\nGlobal Business Division\nDivision Manager: ExecutiveName]
 
-    %% HQ MGT
-    A --> B1[EU Region HQ\nEUリージョン本部\nManager：梅津 幸司（兼任）]
-    A --> B2[EU Region HQ\nEUリージョン本部\nManager：信濃 孝喜（兼任）]
-    A --> B3[EU Region HQ\nEUリージョン本部\nSub-Manager：八木 翔平（HQ兼任）]
+    %% HQ Management
+    A --> B1[EU Region HQ\nManager: Umezu Koji]
+    A --> B2[EU Region HQ\nManager: Shinano Takayoshi]
+    A --> B3[EU Region HQ\nSub-Manager: Yagi Shohei]
 
-    %% L1 グループ
-    A --> C1[Global Store Mgmt (GX)\nChief：曽根原 洋介（GCS兼任）]
-    A --> C2[Global Customer Service (GCS)\nChief：曽根原 洋介（主担当）]
-    A --> C3[Global Biz Sales (GBS)\nChief：花岡 龍（主担当）]
+    %% L1 Groups
+    A --> C1[Global Store Mgmt (GX)\nChief: Sonehara Yosuke]
+    A --> C2[Global Customer Service (GCS)\nChief: Sonehara Yosuke]
+    A --> C3[Global Biz Sales (GBS)\nChief: Hanaoka Ryu]
 
-    %% L2 GCS サブグループ
-    C2 --> D1[GCS サブグループ\nSub-Chief：指籏 由香子]
+    %% L2 GCS Subgroup
+    C2 --> D1[GCS Subgroup\nSub-Chief: Yukako Sashihata]
 
     %% GCS Crew
-    D1 --> E1[鄭 博予]
-    D1 --> E2[山口 智]
-    D1 --> E3[宮澤 侑里]
-    D1 --> E4[飯島 幸子]
-    D1 --> E5[北村 双菜]
-    D1 --> E6[蜂谷 遼]
-    D1 --> E7[瀬上 緩子]
-    D1 --> E8[菊池 諒]
-    D1 --> E9[成田 知子]
-    D1 --> E10[ウエストタマキ マックドミニク]
-    D1 --> E11[木村 恵子]
-    D1 --> E12[安齊 綾]
-    D1 --> E13[クローリー 知佳]
-    D1 --> E14[山本ゲープ 容子]
-    D1 --> E15[石川 佳菜]
+    D1 --> E1[Zheng Boyu]
+    D1 --> E2[Yamaguchi Satoshi]
+    D1 --> E3[Miyazawa Yuri]
+    D1 --> E4[Iijima Sachiko]
+    D1 --> E5[Kitamura Futana]
+    D1 --> E6[Hachiya Ryo]
+    D1 --> E7[Segami Yuko]
+    D1 --> E8[Kikuchi Ryo]
+    D1 --> E9[Narita Tomoko]
+    D1 --> E10[West Tamaki MacDominic]
+    D1 --> E11[Kimura Keiko]
+    D1 --> E12[Anzai Aya]
+    D1 --> E13[Clowry Chika]
+    D1 --> E14[Yamamoto Gabe Yoko]
+    D1 --> E15[Ishikawa Kana]
 
-    %% L2 GBS サブグループ
-    C3 --> D2[GBS サブグループ\nSub-Chief：吉田 大地]
+    %% L2 GBS Subgroup
+    C3 --> D2[GBS Subgroup\nSub-Chief: Daichi Yoshida]
 
-    %% 国際拠点
-    A --> F1[GCS (HK)\nChief：區家挺 AK（Webike HK）]
-    A --> F2[GCS (VN)\nStaff Member：Trần Phước An（Webike Vietnam）]
-    A --> F3[GCS (VN)\nStaff Member：Tôn Thất Bảo Tâm（Webike Vietnam）]
+    %% International Offices
+    A --> F1[GCS (HK)\nChief: Qu Jia Ting AK]
+    A --> F2[GCS (VN)\nStaff Member: Tran Phuoc An]
+    A --> F3[GCS (VN)\nStaff Member: Ton That Bao Tam]
