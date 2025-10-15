@@ -1,20 +1,20 @@
 ```mermaid
 flowchart TB
     %% Headquarters
-    A[Headquarters\nGlobal Business Division\nDivision Manager: ExecutiveName]
+    A[Headquarters - Global Business Division - Division Manager: ExecutiveName]
 
     %% HQ Management
-    A --> B1[EU Region HQ\nManager: Umezu Koji]
-    A --> B2[EU Region HQ\nManager: Shinano Takayoshi]
-    A --> B3[EU Region HQ\nSub-Manager: Yagi Shohei]
+    A --> B1[EU Region HQ - Manager: Umezu Koji]
+    A --> B2[EU Region HQ - Manager: Shinano Takayoshi]
+    A --> B3[EU Region HQ - Sub-Manager: Yagi Shohei]
 
     %% L1 Groups
-    A --> C1[Global Store Mgmt (GX)\nChief: Sonehara Yosuke]
-    A --> C2[Global Customer Service (GCS)\nChief: Sonehara Yosuke]
-    A --> C3[Global Biz Sales (GBS)\nChief: Hanaoka Ryu]
+    A --> C1[Global Store Mgmt (GX) - Chief: Sonehara Yosuke]
+    A --> C2[Global Customer Service (GCS) - Chief: Sonehara Yosuke]
+    A --> C3[Global Biz Sales (GBS) - Chief: Hanaoka Ryu]
 
     %% L2 GCS Subgroup
-    C2 --> D1[GCS Subgroup\nSub-Chief: Yukako Sashihata]
+    C2 --> D1[GCS Subgroup - Sub-Chief: Yukako Sashihata]
 
     %% GCS Crew
     D1 --> E1[Zheng Boyu]
@@ -34,9 +34,9 @@ flowchart TB
     D1 --> E15[Ishikawa Kana]
 
     %% L2 GBS Subgroup
-    C3 --> D2[GBS Subgroup\nSub-Chief: Daichi Yoshida]
+    C3 --> D2[GBS Subgroup - Sub-Chief: Daichi Yoshida]
 
     %% International Offices
-    A --> F1[GCS (HK)\nChief: Qu Jia Ting AK]
-    A --> F2[GCS (VN)\nStaff Member: Tran Phuoc An]
-    A --> F3[GCS (VN)\nStaff Member: Ton That Bao Tam]
+    A --> F1[GCS (HK) - Chief: Qu Jia Ting AK]
+    A --> F2[GCS (VN) - Staff Member: Tran Phuoc An]
+    A --> F3[GCS (VN) - Staff Member: Ton That Bao Tam]
